@@ -1,0 +1,11 @@
+/* CDash.css */
+
+.container {
+  background-image: url('../../../assets/Homepage.jpeg');
+  background-size: cover;
+  position: absolute;
+  width: 100%;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+

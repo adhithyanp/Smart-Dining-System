@@ -1,0 +1,93 @@
+.background {
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+  }
+  
+  .background img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .form-container {
+    margin-top: 70px;
+    padding: 20px;
+    width: 80%;
+    max-width: 400px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .form-container select {
+    margin: 5px;
+    padding: 5px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    width: 100%;
+    max-width: 100%;
+    height: 35px;
+    font-size: 16px;
+  }
+  
+
+  .avatar {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .avatar img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+  }
+  
+  .Navbar {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    color: #fff;
+    width: auto;
+    width: 100%;
+    padding: 10px 0px;
+    height: 70px;
+  }
+  
+  .Cindex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .Cindex form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .Cindex input {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  .Cindex button {
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .Cindex button:hover {
+    background-color: #555;
+  }
